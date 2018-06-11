@@ -2,6 +2,7 @@
 
 #include "SFML\Graphics.hpp"
 
+
 bool AssetManager::LoadTexture(const std::string & name, const std::string & fileName)
 {
 	sf::Texture tex;
@@ -15,10 +16,12 @@ bool AssetManager::LoadTexture(const std::string & name, const std::string & fil
 	return false;
 }
 
+
 sf::Texture & AssetManager::GetTexture(const std::string & name)
 {
 	return _textures.at(name);
 }
+
 
 bool AssetManager::LoadFont(const std::string & name, const std::string & fileName)
 {
@@ -32,6 +35,7 @@ bool AssetManager::LoadFont(const std::string & name, const std::string & fileNa
 
 	return false;
 }
+
 
 sf::Font & AssetManager::GetFont(const std::string & name)
 {

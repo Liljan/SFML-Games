@@ -138,12 +138,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\State.cpp" />
     <ClCompile Include="src\StateMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\AssetManager.h" />
+    <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\State.h" />
     <ClInclude Include="include\StateMachine.h" />
   </ItemGroup>

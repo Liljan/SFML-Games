@@ -1,7 +1,7 @@
 #include <memory>
 #include <stack>
 
-class State;
+#include "State.h"
 
 typedef std::unique_ptr<State> StateRef;
 
